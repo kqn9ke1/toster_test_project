@@ -42,13 +42,14 @@ window.onclick = function (event) {
   }
 };
 
-// button
+// button "buy now"
 const button = document.querySelector(".button_buy");
 button.addEventListener("click", () => {
   window.location.href = "https://youtube.com";
 });
 
-//
+//TODO: first example
+
 document.body.addEventListener("click", (e) => {
   if (!e.target.matches("button")) return;
   document.querySelector(".pic img").src = e.target.dataset.src;
