@@ -1,6 +1,6 @@
 // timer
 document.addEventListener("DOMContentLoaded", () => {
-  const end = new Date("Sep 24 2023 05:00:00");
+  const end = new Date("Sep 26 2023 23:59:59");
 
   const hourVal = document.querySelector(".time .hour");
   const minuteVal = document.querySelector(".time .minutes");
